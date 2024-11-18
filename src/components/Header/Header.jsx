@@ -90,7 +90,7 @@ const Header = () => {
           <Col lg='2' md='3' sm='0' className="d-flex align-items-center justify-content-end">
           <button className="header__btn btn">
             <Link to='/contact'>
-            <i class="ri-phone-line"></i> Request a call
+            <i class="ri-phone-line"></i> Demander un appel
             </Link>
           </button>
           </Col>
