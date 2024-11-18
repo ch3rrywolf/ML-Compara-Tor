@@ -44,7 +44,7 @@ const Footer = () => {
           Livraison possible dans toute la Tunisie 
           </p>
         </Col>
-        <Col lg='3' md='4' sm='6'>
+        <Col lg='2' md='4' sm='6'>
         <div className="mb-4">
           <h5 className="footer__link-title">
           Liens rapides</h5>
@@ -66,6 +66,18 @@ const Footer = () => {
           <p className="office__info">Téléphone: +216 27 932 190</p>
           <p className="office__info">Email: myloclac2@gmail.com</p>
           <p className="office__info">Ouvert: 9am - 8pm</p>
+        </div>
+        </Col>
+        <Col lg="3" md="4">
+        <div className="mb-4">
+          <h5 className="footer__link-title">Newsletter</h5>
+          <p className="section__description"></p>
+          <div className="newsletter">
+            <input type="email" placeholder="Email" />
+            <span>
+              <i class="ri-send-plane-line"></i>
+            </span>
+          </div>
         </div>
         </Col>
       </Row>
