@@ -36,3 +36,124 @@
 .header__top__right a:hover {
     color: #fff;
 }
+
+.header__middle {
+    padding: 20px 0px;
+}
+
+.logo h1 a span {
+    font-size: 1.5rem;
+}
+
+.logo h1 a i {
+    font-size: 2.2rem;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: #456F81;
+    font-weight: 700;
+}
+
+.logo h1 {
+    line-height: 1.5rem;
+}
+
+.header__location span i {
+    font-size: 2.2rem;
+    color: #456F81;
+}
+
+.header__location-content h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #456F81;
+}
+
+.header__location-content h6 {
+    font-weight: 600;
+}
+
+.header__btn {
+    background: #456F81 !important;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.header__btn a {
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    text-decoration: none;
+    color: #fff;
+    justify-content: end;
+    font-size: 0.9rem;
+}
+
+.header__btn a:hover {
+    color: #fff;
+}
+
+
+.main__navbar {
+    padding: 15px 0px;
+    background: #456F81;
+}
+
+.mobile__menu i {
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.mobile__menu {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+}
+
+.nav__item {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav__item:hover {
+    color: #F7A600;
+}
+
+.search__box {
+    border: 1px solid #457F81;
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #2f5a6d;
+}
+
+.search__box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search__box input ::placeholder {
+    font-size: 0.8rem;
+}
+
+.search__box span i {
+    color: #ffffff8e;
+    cursor: pointer;
+}
+
+.nav__active {
+    color: #F7A600;
+}
