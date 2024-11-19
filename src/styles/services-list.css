@@ -12,3 +12,11 @@
 .service__item h6:hover {
     color: #F7A600;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .service__item h6 {
+      font-size: 1.1rem;
+    }
+  }
+  
