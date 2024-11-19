@@ -1,0 +1,43 @@
+.blog__item {
+    border: 1px solid #456F81;
+}
+
+.blog__time {
+    border-top: 1px solid #456F81;
+}
+
+.read__more {
+    color: #F7A600;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.read__more:hover {
+    color: #F7A600;
+}
+
+.blog__time span i {
+    color: #F7A600;
+}
+
+.blog__author {
+    color:#456F81;
+    font-weight: 600;
+}
+
+.blog__author i {
+    font-weight: 500;
+}
+
+.blog__title {
+    text-decoration: none;
+    color: #456F81;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.blog__title:hover {
+    color: #F7A600;
+}
