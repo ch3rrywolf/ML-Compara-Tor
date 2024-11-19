@@ -81,7 +81,7 @@ const Header = () => {
           <div className="header__location d-flex align-items-center gap-2">
             <span><i class="ri-time-line"></i></span>
             <div className="header__location-content">
-              <h4>Sunday to Friday</h4>
+              <h4>Ouvert 7j/7</h4>
               <h6>9am - 8pm</h6>
             </div>
           </div>
