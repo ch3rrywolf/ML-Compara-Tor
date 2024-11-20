@@ -8,11 +8,11 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=61567175341859",
     icon: "ri-facebook-line",
   },
   {
-    url: "#",
+    url: "https://www.instagram.com/myloc.lac.2/",
     icon: "ri-instagram-line",
   },
   // {

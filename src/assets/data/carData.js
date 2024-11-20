@@ -1,11 +1,11 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
+import img01 from "../all-images/cars-img/seat-ibiza-fr.png";
 import img02 from "../all-images/cars-img/offer-toyota.png";
 import img03 from "../all-images/cars-img/bmw-offer.png";
 import img04 from "../all-images/cars-img/nissan-offer.png";
 import img05 from "../all-images/cars-img/offer-toyota.png";
 import img06 from "../all-images/cars-img/mercedes-cla.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
+import img07 from "../all-images/cars-img/audi-a3.png";
 import img08 from "../all-images/cars-img/mercedes-offer.png";
 import imgLogoAg01 from "../all-images/logo.jpg";
 
@@ -14,6 +14,7 @@ const carData = [
     id: 1,
     brand: "Tesla",
     agence:"MyLoc",
+    local: "tunis",
     agenceLogo: imgLogoAg01,
     rating: 112,
     carName: "Seat Ibiza Fr",
@@ -27,8 +28,9 @@ const carData = [
   {
     id: 2,
     brand: "Toyota",
-    agence:"Bouazza",
-    agenceLogo: "",
+    agence:"MyLoc",
+    local: "tunis",
+    agenceLogo: imgLogoAg01,
     rating: 102,
     carName: "Toyota Aventador",
     imgUrl: img02,
@@ -41,7 +43,9 @@ const carData = [
   {
     id: 3,
     brand: "BMW",
-    agence:"Bouazza",
+    agence:"MyLoc",
+    local: "tunis",
+    agenceLogo: imgLogoAg01,
     rating: 132,
     carName: "BMW X3",
     imgUrl: img03,
@@ -55,6 +59,7 @@ const carData = [
     id: 4,
     brand: "Nissan",
     agence:"MyLoc",
+    local: "tunis",
     agenceLogo: imgLogoAg01,
     rating: 102,
     carName: "Nissan Mercielago",
@@ -70,6 +75,7 @@ const carData = [
     id: 6,
     brand: "Mercedes-Benz",
     agence:"MyLoc",
+    local: "tunis",
     agenceLogo: imgLogoAg01,
     rating: 119,
     carName: "Mercedes CLA 180",
@@ -84,15 +90,16 @@ const carData = [
     id: 7,
     brand: "Audi",
     agence:"MyLoc",
+    local: "tunis",
     agenceLogo: imgLogoAg01,
     rating: 82,
-    carName: "Audi Fiesta",
+    carName: "Audi A3",
     imgUrl: img07,
     category: "Luxe",
     price: 50,
     toit: "Toit panoramique",
     transmistion: "Auto",
-    description:""  },
+    description:"Roulez en style avec notre AUDI A3."  },
 
   
 ];
