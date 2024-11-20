@@ -22,6 +22,7 @@ const CarDetails = () => {
         <Container>
           <Row>
             <Col lg="6">
+            <img src={singleCarItem.agenceLogo} alt="" className="logo-agence"/>
               <img src={singleCarItem.imgUrl} alt="" className="w-100" />
             </Col>
 
@@ -67,7 +68,7 @@ const CarDetails = () => {
                       class="ri-settings-2-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.automatic}
+                    {singleCarItem.transmistion}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">

@@ -45,6 +45,11 @@
     font-weight: 600;
 }
 
+.logo-agence {
+  width: 40px;
+  height: 40px;
+}
+
 @media only screen and (max-width: 992px) {
     .car__item h4 {
       font-size: 1.1rem;

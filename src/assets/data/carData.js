@@ -7,11 +7,14 @@ import img05 from "../all-images/cars-img/offer-toyota.png";
 import img06 from "../all-images/cars-img/mercedes-offer.png";
 import img07 from "../all-images/cars-img/toyota-offer-2.png";
 import img08 from "../all-images/cars-img/mercedes-offer.png";
+import imgLogoAg01 from "../all-images/logo.jpg";
 
 const carData = [
   {
     id: 1,
     brand: "Tesla",
+    agence:"MyLoc",
+    agenceLogo: imgLogoAg01,
     rating: 112,
     carName: "Tesla Malibu",
     imgUrl: img01,
@@ -20,7 +23,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Auto",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -28,6 +31,8 @@ const carData = [
   {
     id: 2,
     brand: "Toyota",
+    agence:"Bouazza",
+    agenceLogo: "",
     rating: 102,
     carName: "Toyota Aventador",
     imgUrl: img02,
@@ -36,7 +41,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Auto",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -44,6 +49,7 @@ const carData = [
   {
     id: 3,
     brand: "BMW",
+    agence:"Bouazza",
     rating: 132,
     carName: "BMW X3",
     imgUrl: img03,
@@ -52,7 +58,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Auto",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -60,6 +66,8 @@ const carData = [
   {
     id: 4,
     brand: "Nissan",
+    agence:"MyLoc",
+    agenceLogo: imgLogoAg01,
     rating: 102,
     carName: "Nissan Mercielago",
     imgUrl: img04,
@@ -68,7 +76,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Auto",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -76,6 +84,8 @@ const carData = [
   {
     id: 5,
     brand: "Ferrari",
+    agence:"MyLoc",
+    agenceLogo: imgLogoAg01,
     rating: 94,
     carName: "Ferrari Camry",
     imgUrl: img05,
@@ -84,7 +94,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Auto",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -92,6 +102,8 @@ const carData = [
   {
     id: 6,
     brand: "Mercedes",
+    agence:"MyLoc",
+    agenceLogo: imgLogoAg01,
     rating: 119,
     carName: "Mercedes Benz XC90",
     imgUrl: img06,
@@ -100,7 +112,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Auto",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -108,6 +120,8 @@ const carData = [
   {
     id: 7,
     brand: "Audi",
+    agence:"MyLoc",
+    agenceLogo: imgLogoAg01,
     rating: 82,
     carName: "Audi Fiesta",
     imgUrl: img07,
@@ -116,7 +130,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Auto",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -124,6 +138,8 @@ const carData = [
   {
     id: 8,
     brand: "Colorado",
+    agence:"MyLoc",
+    agenceLogo: imgLogoAg01,
     rating: 52,
     carName: "Rolls Royce Colorado",
     imgUrl: img08,
@@ -132,7 +148,7 @@ const carData = [
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
-    automatic: "Automatic",
+    transmistion: "Manuel",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
