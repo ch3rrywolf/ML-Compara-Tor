@@ -17,25 +17,24 @@ const AboutSection = ({aboutClass}) => {
         <Row>
             <Col lg='6' md='6'>
             <div className="about__section-content">
-                <h4 className="section__subtitle">About Us</h4>
-                <h2 className="section__title">Welcome to MyLoc</h2>
-                <p className="section__description">Location de voiture, longue et courte durée
-                Livraison possible dans toute la Tunisie</p>
+                <h4 className="section__subtitle">À propos de nous</h4>
+                <h2 className="section__title">Bienvenue sur MyLoc</h2>
+                <p className="section__description">Chez « My Loc », nous mettons à votre disposition une large gamme de voitures pour répondre à tous.</p>
             
             <div className="about__section-item d-flex align-items-center">
-                <p className="section__description d-flex align-items-center gap-2">
-                    <i class="ri-checkbox-circle-line"></i>dhfgsdgfuyzegf
+                <p className="section__description d-flex align-items-center gap-1">
+                    <i class="ri-checkbox-circle-line"></i> Voitures impeccables et bien entretenues
                 </p>
-                <p className="section__description d-flex align-items-center gap-2">
-                    <i class="ri-checkbox-circle-line"></i>dhfgsdgfuyzegf
+                <p className="section__description d-flex align-items-center gap-1">
+                    <i class="ri-checkbox-circle-line"></i> Tarifs compétitifs
                 </p>
             </div>
             <div className="about__section-item d-flex align-items-center">
-                <p className="section__description d-flex align-items-center gap-2">
-                    <i class="ri-checkbox-circle-line"></i>dhfgsdgfuyzegf
+                <p className="section__description d-flex align-items-center gap-1">
+                    <i class="ri-checkbox-circle-line"></i>Service convivial, professionnel et dévoué.
                 </p>
-                <p className="section__description d-flex align-items-center gap-2">
-                    <i class="ri-checkbox-circle-line"></i>dhfgsdgfuyzegf
+                <p className="section__description d-flex align-items-center gap-1">
+                    <i class="ri-checkbox-circle-line"></i>Options de location flexibles avec des remises et des formules selon vos besoins.
                 </p>
             </div>
 

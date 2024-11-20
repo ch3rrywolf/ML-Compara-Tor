@@ -23,8 +23,8 @@ const HeroSlider = () => {
     <div className="slider__item slider__item-01 mt0">
         <Container>
             <div className="slider__content">
-                <h4 className="text-light mb-3">À louer 70 $ par jour</h4>
-                <h1 className="text-light mb-4">Réservez maintenant et obtenez 50% de réduction</h1>
+                <h4 className="text-light mb-3">Les principales agences de location de voitures en un seul endroit</h4>
+                <h1 className="text-light mb-4">entrez et vérifiez !</h1>
 
                 <button className="btn reserve__btn mt-4">
                     <Link to="/cars">Réservez maintenant</Link>
@@ -36,8 +36,8 @@ const HeroSlider = () => {
     <div className="slider__item slider__item-02 mt0">
         <Container>
             <div className="slider__content">
-                <h4 className="text-light mb-3">À louer 70 $ par jour</h4>
-                <h1 className="text-light mb-4">Réservez maintenant et obtenez 50% de réduction</h1>
+                <h4 className="text-light mb-3">Explorez notre gamme de véhicules, conçue pour répondre à toutes vos envies et besoins.</h4>
+                <h1 className="text-light mb-4">Les prix les plus bas de l'univers...</h1>
 
                 <button className="btn reserve__btn mt-4">
                     <Link to="/cars">Réservez maintenant</Link>
@@ -49,8 +49,8 @@ const HeroSlider = () => {
     <div className="slider__item slider__item-03 mt0">
         <Container>
             <div className="slider__content">
-                <h4 className="text-light mb-3">À louer 70 $ par jour</h4>
-                <h1 className="text-light mb-4">Réservez maintenant et obtenez 50% de réduction</h1>
+                <h4 className="text-light mb-3">Les principales agences de location de voitures en un seul endroit</h4>
+                <h1 className="text-light mb-4">Meilleur prix garanti</h1>
 
                 <button className="btn reserve__btn mt-4">
                     <Link to="/cars">Réservez maintenant</Link>

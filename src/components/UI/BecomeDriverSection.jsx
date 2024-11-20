@@ -12,10 +12,10 @@ const BecomeDriverSection = () => {
             </Col>
             <Col lg='6' md='6' sm='12'>
             <h2 className="section__title become__driver-title">
-                Do You Want to Earn With Us? So Don't Be Late
+            Vous voulez gagner de l'argent avec nous ? Alors ne soyez pas en retard
             </h2>
 
-            <button className="btn become__driver-btn mt-4">Become a Driver</button>
+            <button className="btn become__driver-btn mt-4">Devenir chauffeur</button>
             </Col>
         </Row>
     </Container>

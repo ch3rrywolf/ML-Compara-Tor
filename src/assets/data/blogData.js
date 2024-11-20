@@ -1,46 +1,58 @@
 // import images from all-images/blog-img directory
-import img01 from "../all-images/blog-img/blog-1.jpg";
-import img02 from "../all-images/blog-img/blog-2.jpg";
-import img03 from "../all-images/blog-img/blog-3.jpg";
+
+import img04 from "../all-images/blog-img/blog-4.jpg";
+import img05 from "../all-images/blog-img/blog-5.jpg";
+import img06 from "../all-images/blog-img/blog-6.jpg";
+import img07 from "../all-images/blog-img/blog-7.jpg";
 
 const blogData = [
   {
     id: 1,
-    title: "The best way to drive cars",
-    author: "Muhib",
-    date: "12 Dec, 2020",
-    time: "9pm",
-    imgUrl: img01,
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+    title: "Découvrez Notre Large Gamme De Véhicules Adaptée à Tous Vos Besoins",
+    author: "admin",
+    date: "20 Nov, 2024",
+    time: "14h",
+    imgUrl: img07,
+    description:"Explorez notre gamme de véhicules, conçue pour répondre à toutes vos envies et besoins. ✨🚗",
     quote:
-      "Voluptua dolore takimata dolor sadipscing nonumy consetetur et. Stet sed dolores dolores dolores dolores eos.",
+      "#MyLoc #ChoixInfini #citadines #berline #suv #luxe #VotreStyleVotreVoiture",
   },
 
   {
     id: 2,
-    title: "If your car battery is down",
-    author: "Muhib",
-    date: "12 Dec, 2020",
-    time: "9pm",
-    imgUrl: img02,
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-    quote:
-      "Voluptua dolore takimata dolor sadipscing nonumy consetetur et. Stet sed dolores dolores dolores dolores eos.",
+    title: "Faites de votre mariage un moment mémorable avec notre Mercedes G-Classe ✨",
+    author: "admin",
+    date: "19 Nov, 2024",
+    time: "13h",
+    imgUrl: img06,
+    description: "Arrivez avec élégance et style à votre grand jour. 💍🚘 ✅ Luxe incomparable✅ Confort absolu✅ Parfait pour des photos inoubliables",
+    quote: "#myloc #mariagetunise #mariagetunsie #mariageTN #chauffeur",
   },
 
   {
     id: 3,
-    title: "The best way to give trip",
-    author: "Muhib",
-    date: "12 Dec, 2020",
-    time: "9pm",
-    imgUrl: img03,
+    title: "Coming Soon...",
+    author: "admin",
+    date: "15 Nov, 2024",
+    time: "11h",
+    imgUrl: img05,
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+    "Coming Soon...L'attente est presque terminée ! Prêt(e) à vivre l’expérience de luxe sur la route ? Restez connectés pour plus de détails et soyez parmi les premiers à prendre le volant ! 🔥",
     quote:
-      "Voluptua dolore takimata dolor sadipscing nonumy consetetur et. Stet sed dolores dolores dolores dolores eos.",
+      "#MercedesCLE #ComingSoon #LocationDeVoiture #ConduiteDeLuxe #MyLoc #NouvelleVoiture #MercedesBenz #LuxeSurLaRoute #VitesseEtConfort",
+  },
+
+  {
+    id: 4,
+    title: "Annonce De Partenariat",
+    author: "admin",
+    date: "15 Nov, 2024",
+    time: "9h",
+    imgUrl: img04,
+    description:
+      "Grâce à cette collaboration, nous mettons à disposition des solutions de mobilité sur-mesure, garantissant la sécurité, la fiabilité et le confort pour les déplacements professionnels 🤝 Ensemble, nous offrons des services adaptés aux besoins de GLOBAL ENR, afin de soutenir leur croissance et de faciliter la logistique des équipes.",
+    quote:
+      "#Partenariat #MobilitéProfessionnelle #TransfertDePersonnel #LocationDeVoitures #GLOBALENR #ServiceDeQualité",
   },
 ];
 

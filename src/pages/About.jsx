@@ -12,7 +12,7 @@ import "../styles/about.css";
 
 const About = () => {
   return (<Helmet title="About">
-    <CommonSection title="About" />
+    <CommonSection title="À propos" />
     <AboutSection aboutClass="aboutPage" />
 
     <section>
@@ -25,18 +25,34 @@ const About = () => {
           </Col>
           <Col lg='6' md='6' sm='12'>
           <div className="about__page-content">
-            <h2 className="section__title">We Are Committed To Provide Safe Ride Solutions</h2>
+            <h2 className="section__title">Nous nous engageons à fournir des solutions de transport sécuritaires</h2>
 
             <p className="section__description">
-              sdihgsdhgijdshnkjvbhigfighigciuhsif
+            Modifications et annulations Gratuites si nécessaire
             </p>
-
             <p className="section__description">
-              sdihgsdhgijdshnkjvbhigfighigciuhsif
+            Une équipe agréable qui parle votre langue
             </p>
-
             <p className="section__description">
-              sdihgsdhgijdshnkjvbhigfighigciuhsif
+            Tarifs Tout Compris Sans Supplément
+            </p>
+            <p className="section__description">
+            Pas de Limitation kilométrique
+            </p>
+            <p className="section__description">
+            Conditions claires et précises
+            </p>
+            <p className="section__description">
+            Assistance téléphonique
+            </p>
+            <p className="section__description">
+            Assurance Tout Risque
+            </p>
+            <p className="section__description">
+            Service après-vente
+            </p>
+            <p className="section__description">
+            Voitures Neuves
             </p>
 
             <div className="d-flex align-items-center gap-3 mt-4">
@@ -45,7 +61,7 @@ const About = () => {
               </span>
 
               <div>
-                <h6 className="section__subtitle">Need Any Help?</h6>
+                <h6 className="section__subtitle">Besoin d'aide ?</h6>
                 <h4>+216 27 932 190</h4>
               </div>
             </div>

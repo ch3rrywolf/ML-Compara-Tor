@@ -70,6 +70,14 @@
     border-top: 1px solid #7c8a972f;
 }
 
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* border: 2px solid #000d6b; */
+    object-fit: cover;
+  }
+
 @media only screen and (max-width: 768px) {
     .footer__logo-content {
       font-size: 0.8rem;
@@ -90,6 +98,12 @@
       font-size: 0.7rem;
     }
   
-    
+    .logo img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        /* border: 2px solid #000d6b; */
+        object-fit: cover;
+      }
   }
   

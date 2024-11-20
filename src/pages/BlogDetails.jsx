@@ -46,34 +46,31 @@ const BlogDetails = () => {
                 <h6 className="ps-5 fw-normal">
                   <blockquote className="fs-4">{blog.quote}</blockquote>
                 </h6>
-                <p className="section__description">{blog.description}</p>
+                {/* <p className="section__description">{blog.description}</p> */}
               </div>
 
               <div className="comment__list mt-5">
-                <h4 className="mb-5">3 Comments</h4>
+                <h4 className="mb-5">1 Commentaires</h4>
 
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">David Visa</h6>
-                    <p className="section__description mb-0">14 July, 2022</p>
-                    <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                    <h6 className=" fw-bold">Zellit Mootez</h6>
+                    <p className="section__description mb-0">20 Nov, 2024</p>
+                    <p className="section__description">Si bon !
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
-                      <i class="ri-reply-line"></i> Replay
+                      <i class="ri-reply-line"></i> Rejouer
                     </span>
                   </div>
                 </div>
 
                 {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
-                  <h4>Leave a Comment</h4>
+                  <h4>Laisser un commentaire</h4>
                   <p className="section__description">
-                    You must sign-in to make or comment a post
+                  Vous devez vous connecter pour créer ou commenter une publication
                   </p>
 
                   <Form>
@@ -91,7 +88,7 @@ const BlogDetails = () => {
                     </FormGroup>
 
                     <button className="btn comment__btn mt-3">
-                      Post a Comment
+                    Poster un commentaire
                     </button>
                   </Form>
                 </div>
@@ -100,14 +97,14 @@ const BlogDetails = () => {
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Recent Posts</h5>
+                <h5 className=" fw-bold">Articles récents</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>
                   <div className="recent__blog-item d-flex gap-3">
                     <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
                     <h6>
-                      <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
+                      <Link to={`/blogs/${item.title}`}>{item.title}</Link>
                     </h6>
                   </div>
                 </div>

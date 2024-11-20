@@ -4,18 +4,20 @@ import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
 
+import imgLogo from "../../assets/all-images/logo.jpg";
+
 const navLinks = [
   {
     path:'/home',
-    display: 'Home'
+    display: 'Accueil'
   },
   {
     path:'/about',
-    display: 'About'
+    display: 'À propos'
   },
   {
     path:'/cars',
-    display: 'Cars'
+    display: 'Voitures'
   },
   {
     path:'/blogs',
@@ -47,10 +49,10 @@ const Header = () => {
           <Col lg='6' md='6' sm='6'>
           <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
             <Link to="#" className="d-flex align-items-center gap-1">
-            <i class="ri-login-circle-line"></i> Login
+            <i class="ri-login-circle-line"></i> Se connecter
             </Link>
             <Link to="#" className="d-flex align-items-center gap-1">
-            <i class="ri-user-line"></i> Register
+            <i class="ri-user-line"></i> Registre
             </Link>
           </div>
           </Col>
@@ -64,8 +66,9 @@ const Header = () => {
           <Col lg='4' md='3' sm='4'>
           <div className="logo">
             <h1><Link to='/home' className="d-flex align-items-center gap-3">
-            <i class="ri-car-line"></i>
-            <span>MyLoc <br /> Comparator</span>
+            {/* <i class="ri-car-line"></i> */}
+            <img src={imgLogo} alt="" />
+            <span>Comparator</span>
             </Link>
             </h1>
           </div>
@@ -86,7 +89,7 @@ const Header = () => {
             <span><i class="ri-time-line"></i></span>
             <div className="header__location-content">
               <h4>Ouvert 7j/7</h4>
-              <h6>9am - 8pm</h6>
+              <h6>9h - 20h</h6>
             </div>
           </div>
           </Col>
@@ -127,7 +130,7 @@ const Header = () => {
 
           <div className="nav__right">
             <div className="search__box">
-              <input type="text" placeholder="Search" />
+              <input type="text" placeholder="Recherche" />
               <span><i class="ri-search-line"></i></span>
             </div>
           </div>
