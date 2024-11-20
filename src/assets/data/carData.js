@@ -4,7 +4,7 @@ import img02 from "../all-images/cars-img/offer-toyota.png";
 import img03 from "../all-images/cars-img/bmw-offer.png";
 import img04 from "../all-images/cars-img/nissan-offer.png";
 import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
+import img06 from "../all-images/cars-img/mercedes-cla.png";
 import img07 from "../all-images/cars-img/toyota-offer-2.png";
 import img08 from "../all-images/cars-img/mercedes-offer.png";
 import imgLogoAg01 from "../all-images/logo.jpg";
@@ -16,17 +16,13 @@ const carData = [
     agence:"MyLoc",
     agenceLogo: imgLogoAg01,
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Seat Ibiza Fr",
     imgUrl: img01,
-    model: "Model 3",
+    category: "Citadines",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
+    toit: "Toit ouvrant",
     transmistion: "Auto",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+    description:""  },
 
   {
     id: 2,
@@ -36,15 +32,11 @@ const carData = [
     rating: 102,
     carName: "Toyota Aventador",
     imgUrl: img02,
-    model: "Model-2022",
+    category: "Berline",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
+    toit: "Toit ouvrant",
     transmistion: "Auto",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+    description:""  },
 
   {
     id: 3,
@@ -53,15 +45,11 @@ const carData = [
     rating: 132,
     carName: "BMW X3",
     imgUrl: img03,
-    model: "Model-2022",
+    category: "Luxe",
     price: 65,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
+    toit: "Toit ouvrant",
     transmistion: "Auto",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+    description:""  },
 
   {
     id: 4,
@@ -71,51 +59,26 @@ const carData = [
     rating: 102,
     carName: "Nissan Mercielago",
     imgUrl: img04,
-    model: "Model-2022",
+    category: "Berline",
     price: 70,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
+    toit: "Toit ouvrant",
     transmistion: "Auto",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
-
-  {
-    id: 5,
-    brand: "Ferrari",
-    agence:"MyLoc",
-    agenceLogo: imgLogoAg01,
-    rating: 94,
-    carName: "Ferrari Camry",
-    imgUrl: img05,
-    model: "Model-2022",
-    price: 45,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    transmistion: "Auto",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+    description:""  },
+  
 
   {
     id: 6,
-    brand: "Mercedes",
+    brand: "Mercedes-Benz",
     agence:"MyLoc",
     agenceLogo: imgLogoAg01,
     rating: 119,
-    carName: "Mercedes Benz XC90",
+    carName: "Mercedes CLA 180",
     imgUrl: img06,
-    model: "Model-2022",
+    category: "Luxe",
     price: 85,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
+    toit: "Toit panoramique",
     transmistion: "Auto",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+    description:""  },
 
   {
     id: 7,
@@ -125,33 +88,13 @@ const carData = [
     rating: 82,
     carName: "Audi Fiesta",
     imgUrl: img07,
-    model: "Model 3",
+    category: "Luxe",
     price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
+    toit: "Toit panoramique",
     transmistion: "Auto",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+    description:""  },
 
-  {
-    id: 8,
-    brand: "Colorado",
-    agence:"MyLoc",
-    agenceLogo: imgLogoAg01,
-    rating: 52,
-    carName: "Rolls Royce Colorado",
-    imgUrl: img08,
-    model: "Model 3",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    transmistion: "Manuel",
-    description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+  
 ];
 
 export default carData;

@@ -60,7 +60,7 @@ const CarDetails = () => {
                       class="ri-roadster-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.model}
+                    {singleCarItem.category}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
@@ -76,7 +76,7 @@ const CarDetails = () => {
                       class="ri-timer-flash-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.speed}
+                    {singleCarItem.toit}
                   </span>
                 </div>
 
