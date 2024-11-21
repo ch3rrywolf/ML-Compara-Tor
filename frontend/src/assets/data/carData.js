@@ -7,7 +7,7 @@ import img01 from "../all-images/cars-img/seat-ibiza-fr.png";
 import img06 from "../all-images/cars-img/mercedes-cla.png";
 import img07 from "../all-images/cars-img/audi-a3.png";
 // import img08 from "../all-images/cars-img/mercedes-offer.png";
-import imgLogoAg01 from "../all-images/logo.jpg";
+import imgLogoAg01 from "../all-images/agns-img/agns-logo.jpg";
 
 const carData = [
   {
@@ -25,45 +25,9 @@ const carData = [
     transmistion: "Auto",
     description:"Prenez le volant avec style! Louez votre voiture dès maintenant et explorez la ville sans limites."  },
 
-  // {
-  //   id: 2,
-  //   imgUrl: img02,
-  //   price: 50,
-  //   description:""  },
-
-  // {
-  //   id: 3,
-  //   brand: "BMW",
-  //   agence:"MyLoc",
-  //   local: "Les berges du lac 2, Tunis",
-  //   agenceLogo: imgLogoAg01,
-  //   rating: 132,
-  //   carName: "BMW X3",
-  //   imgUrl: img03,
-  //   category: "Luxe",
-  //   price: 65,
-  //   toit: "Toit ouvrant",
-  //   transmistion: "Auto",
-  //   description:""  },
-
-  // {
-  //   id: 4,
-  //   brand: "Nissan",
-  //   agence:"MyLoc",
-  //   local: "Les berges du lac 2, Tunis",
-  //   agenceLogo: imgLogoAg01,
-  //   rating: 102,
-  //   carName: "Nissan Mercielago",
-  //   imgUrl: img04,
-  //   category: "Berline",
-  //   price: 70,
-  //   toit: "Toit ouvrant",
-  //   transmistion: "Auto",
-  //   description:""  },
-  
 
   {
-    id: 6,
+    id: 2,
     brand: "Mercedes-Benz",
     agence:"MyLoc",
     local: "Les berges du lac 2, Tunis",
@@ -78,7 +42,7 @@ const carData = [
     description:"Prenez la route en toute liberté avec My Loc ✨Louez la voiture parfaite pour chaque aventure !"  },
 
   {
-    id: 7,
+    id: 3,
     brand: "Audi",
     agence:"MyLoc",
     local: "Les berges du lac 2, Tunis",

@@ -4,6 +4,8 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
+import voitureRoute from "./routes/voitures.js";
+
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
@@ -28,6 +30,8 @@ const connect = async () => {
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
+
+app.use('/voitures', voitureRoute);
 
 app.listen(port, ()=>{
     connect();
