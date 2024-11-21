@@ -13,11 +13,23 @@ const port = process.env.PORT || 8000;
 //     res.send("api is working");
 // })
 
+
+
+mongoose.set("strictQuery", false);
+const connect = async () => {
+    try {
+        await mongoose.connect(process.env.MONGO_URI);
+        console.log('MongoDB database connected');
+    } catch (err) {
+        console.error('MongoDB database connection failed:', err);
+    }
+};
+
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
 
 app.listen(port, ()=>{
-    // connect();
+    connect();
     console.log('server listening on port', port);
 });
