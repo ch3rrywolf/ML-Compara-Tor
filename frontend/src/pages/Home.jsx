@@ -11,6 +11,7 @@ import CarItem from "../components/UI/CarItem";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
 import BlogList from "../components/UI/BlogList";
+import FeaturedVoitureList from "../components/UI/FeaturedVoitureList";
 
 const Home = () => {
   return (
@@ -57,9 +58,10 @@ const Home = () => {
             <h6 className="section__subtitle">Venez avec</h6>
             <h2 className="section__title">Offres exceptionnelles</h2>
             </Col>
-            {carData.slice(0, 6).map((item) => (
+            {/* {carData.slice(0, 6).map((item) => (
               <CarItem item={item} key={item.id} />
-            ))}
+            ))} */}
+          <FeaturedVoitureList />
           </Row>
         </Container>
       </section>
