@@ -5,6 +5,8 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
 import voitureRoute from "./routes/voitures.js";
+import userRoute from "./routes/users.js";
+import authRoute from "./routes/auth.js";
 
 dotenv.config();
 const app = express();
@@ -31,7 +33,9 @@ app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
 
+app.use('/auth', authRoute);
 app.use('/voitures', voitureRoute);
+app.use('/users', userRoute);
 
 app.listen(port, ()=>{
     connect();
