@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
 // import carData from "../assets/data/carData";
 import { useLocation } from 'react-router-dom';
-import FindCarForm from "../components/UI/FindCarForm";
+// import FindCarForm from "../components/UI/FindCarForm";
 
 const CarSearch = () => {
 

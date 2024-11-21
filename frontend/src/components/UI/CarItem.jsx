@@ -31,11 +31,11 @@ const CarItem = ({voiture}) => {
         </div>
 
         <button className="w-50 car__item-btn car__btn-rent">
-            <Link to={`/voitures/${_id}`}>Louer</Link>
+            <Link to={`/cars/${_id}`}>Louer</Link>
         </button>
 
         <button className="w-50 car__item-btn car__btn-details">
-            <Link to={`/voitures/${_id}`}>Détails</Link>
+            <Link to={`/cars/${_id}`}>Détails</Link>
         </button>
     </div>
   </div>
