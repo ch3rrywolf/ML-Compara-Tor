@@ -1,11 +1,12 @@
 import express from "express";
 import { createVoiture, updateVoiture, deleteVoiture, getOneVoiture, getAllVoiture, getVoitureBySearch, getFeaturedVoiture, getVoitureCount } from "../controllers/voitureController.js";
+import { verifyAdmin } from "../utils/verifyToken.js";
 
 const router = express.Router();
 
-router.post("/", createVoiture);
-router.put("/:id", updateVoiture);
-router.delete("/:id", deleteVoiture);
+router.post("/", verifyAdmin, createVoiture);
+router.put("/:id", verifyAdmin, updateVoiture);
+router.delete("/:id", verifyAdmin, deleteVoiture);
 router.get("/:id", getOneVoiture);
 router.get("/", getAllVoiture);
 router.get("/search/getVoitureBySearch", getVoitureBySearch);
