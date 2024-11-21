@@ -70,7 +70,7 @@ const About = () => {
         </Row>
       </Container>
     </section>
-
+{/* 
     <BecomeDriverSection />
 
     <section>
@@ -83,7 +83,7 @@ const About = () => {
           <OurMembers />
         </Row>
       </Container>
-    </section>
+    </section> */}
   </Helmet>
   );
 };

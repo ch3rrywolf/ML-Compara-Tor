@@ -32,7 +32,7 @@ const CarDetails = () => {
 
                 <div className=" d-flex align-items-center gap-5 mb-4 mt-3">
                   <h6 className="rent__price fw-bold fs-4">
-                    ${singleCarItem.price}.00 / Day
+                    {singleCarItem.price}.00 DT/Jour
                   </h6>
 
                   <span className=" d-flex align-items-center gap-2">
@@ -86,7 +86,7 @@ const CarDetails = () => {
                 >
                   <span className=" d-flex align-items-center gap-1 section__description">
                     <i class="ri-map-pin-line" style={{ color: "#f9a826" }}></i>{" "}
-                    {singleCarItem.gps}
+                    {singleCarItem.local}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
@@ -94,7 +94,7 @@ const CarDetails = () => {
                       class="ri-wheelchair-line"
                       style={{ color: "#f9a826" }}
                     ></i>{" "}
-                    {singleCarItem.seatType}
+                    Siège Auto 
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
