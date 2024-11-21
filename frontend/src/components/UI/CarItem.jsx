@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import "../../styles/car-item.css";
 
 const CarItem = ({voiture}) => {
-    const {_id, imgUrl, category, carName, transmistion, toit, price, agence, agenceLogo, local} =  voiture;
+    const {_id, imgUrl, category, carName, transmistion, toit, price, agence, agenceLogo, local, featured} =  voiture;
   return <Col lg='4' md='4' sm='6' className='mb-5'>
   <div className="car__item">
     <div className="car__img">
     <img src={agenceLogo} alt={agence} className="logo-agence"/>
     <img src={imgUrl} alt={carName} className="w-100" />
+    {featured && <span>Offres exceptionnelles</span>}
     </div>
     <div className="car__item-content mt-4">
         <h4 className="section__title text-center">{carName}</h4>
