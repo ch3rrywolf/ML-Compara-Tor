@@ -27,17 +27,8 @@ const carData = [
 
   // {
   //   id: 2,
-  //   brand: "Toyota",
-  //   agence:"MyLoc",
-  //   local: "Les berges du lac 2, Tunis",
-  //   agenceLogo: imgLogoAg01,
-  //   rating: 102,
-  //   carName: "Toyota Aventador",
   //   imgUrl: img02,
-  //   category: "Berline",
   //   price: 50,
-  //   toit: "Toit ouvrant",
-  //   transmistion: "Auto",
   //   description:""  },
 
   // {

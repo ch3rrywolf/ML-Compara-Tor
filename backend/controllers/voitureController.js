@@ -1,0 +1,1 @@
+import Voiture from "../models/Voiture.js";
