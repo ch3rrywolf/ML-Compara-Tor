@@ -119,14 +119,14 @@ export const getAllVoiture = async (req, res) => {
 
 // get voiture by serach
 export const getVoitureBySearch = async(req,res) => {
-    const category = new RegExp(req.query.category, 'i')
+    const local = new RegExp(req.query.local, 'i')
     // const agence = new RegExp(req.query.agence, 'i')
     // const category = new RegExp(req.query.category, 'i')
     // const transmistion = new RegExp(req.query.transmistion, 'i')
     // const pricejour = new RegExp(req.query.pricejour, 'i')
 
     try {
-        const voitures = await Voiture.find({ category}).populate("reviews");
+        const voitures = await Voiture.find({ local}).populate("reviews");
 
         res.status(200).json({
             success: true,
