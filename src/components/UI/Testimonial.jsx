@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import ava01 from "../../assets/all-images/ava-1.jpg";
-import ava02 from "../../assets/all-images/ava-2.jpg";
-import ava03 from "../../assets/all-images/ava-3.jpg";
-import ava04 from "../../assets/all-images/ava-4.jpg";
+// import ava02 from "../../assets/all-images/ava-2.jpg";
+// import ava03 from "../../assets/all-images/ava-3.jpg";
+// import ava04 from "../../assets/all-images/ava-4.jpg";
 
 import "../../styles/testimonial.css";
 
@@ -41,7 +41,7 @@ const Testimonial = () => {
   return (<Slider {...settings}>
     <div className="testimonial py-4 px-3">
         <p className="section__description">
-            ghidshif heihgozehfozdg hidshifheihgozehfozdghidshif heihg ozehfozd
+        Rapide intéressant merci
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -56,14 +56,14 @@ const Testimonial = () => {
 
     <div className="testimonial py-4 px-3">
         <p className="section__description">
-            ghidshif heihgozehfozdg hidshifheihgozehfozdghidshif heihg ozehfozd
+            Simple et pratique
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
             <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
             <div>
-                <h6 className="mb-0 mt-3">Ben Alaya</h6>
+                <h6 className="mb-0 mt-3">Mootez</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
@@ -71,14 +71,14 @@ const Testimonial = () => {
 
     <div className="testimonial py-4 px-3">
         <p className="section__description">
-            ghidshif heihgozehfozdg hidshifheihgozehfozdghidshif heihg ozehfozd
+            Facile et rapide
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
             <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
             <div>
-                <h6 className="mb-0 mt-3">Melazus</h6>
+                <h6 className="mb-0 mt-3">Bilel</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
@@ -86,15 +86,15 @@ const Testimonial = () => {
 
     <div className="testimonial py-4 px-3">
         <p className="section__description">
-            ghidshif heihgozehfozdg hidshifheihgozehfozdghidshif heihg ozehfozd
+            Simple et pratique
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
             <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
             <div>
-                <h6 className="mb-0 mt-3">El Wolf</h6>
-                <p className="section__description">Developer</p>
+                <h6 className="mb-0 mt-3">Salem</h6>
+                <p className="section__description">Customer</p>
             </div>
         </div>
     </div>

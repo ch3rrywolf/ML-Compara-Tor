@@ -4,8 +4,22 @@ import img04 from "../all-images/blog-img/blog-4.jpg";
 import img05 from "../all-images/blog-img/blog-5.jpg";
 import img06 from "../all-images/blog-img/blog-6.jpg";
 import img07 from "../all-images/blog-img/blog-7.jpg";
+import img08 from "../all-images/blog-img/blog-8.jpg";
 
 const blogData = [
+
+  {
+    id: 5,
+    title: "Un service sur mesure...",
+    author: "admin",
+    date: "21 Nov, 2024",
+    time: "10h",
+    imgUrl: img08,
+    description:
+      "✨ Un service sur mesure : Chauffeur et véhicule à votre disposition pour tous vos déplacements. 🌍🚘",
+    quote:
+      "#myloc #chauffeur #visite #tourisme #shopping #ServicePremium #deplacement",
+  },
   {
     id: 1,
     title: "Découvrez Notre Large Gamme De Véhicules Adaptée à Tous Vos Besoins",

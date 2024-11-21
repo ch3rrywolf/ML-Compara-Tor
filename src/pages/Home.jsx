@@ -41,8 +41,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-            <h6 className="section__subtitle">See our</h6>
-            <h2 className="section__title">Popular Services</h2>
+            <h6 className="section__subtitle">Consultez nos</h6>
+            <h2 className="section__title">Services populaires</h2>
             </Col>
 
             <ServicesList />
@@ -54,8 +54,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-            <h6 className="section__subtitle">Come with</h6>
-            <h2 className="section__title">Hot Offers</h2>
+            <h6 className="section__subtitle">Venez avec</h6>
+            <h2 className="section__title">Offres exceptionnelles</h2>
             </Col>
             {carData.slice(0, 6).map((item) => (
               <CarItem item={item} key={item.id} />
@@ -70,8 +70,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='12' className="mb-4 text-center">
-            <h6 className="section__subtitle">Our clients says</h6>
-            <h2 className="section__title">Testimonials</h2>
+            <h6 className="section__subtitle">Nos clients disent</h6>
+            <h2 className="section__title">Témoignages</h2>
             </Col>
 
             <Testimonial />
@@ -83,8 +83,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='12' className="mb-5 text-center">
-            <h6 className="section__subtitle">Explore our blogs</h6>
-            <h2 className="section__title">Latest Blogs</h2>
+            <h6 className="section__subtitle">Découvrez nos blogs</h6>
+            <h2 className="section__title">Derniers blogs</h2>
             </Col>
 
             <BlogList />
