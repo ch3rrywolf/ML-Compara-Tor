@@ -1,12 +1,12 @@
 // import all images from assets/images directory
 import img01 from "../all-images/cars-img/seat-ibiza-fr.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
+// import img02 from "../all-images/cars-img/offer-toyota.png";
+// import img03 from "../all-images/cars-img/bmw-offer.png";
+// import img04 from "../all-images/cars-img/nissan-offer.png";
+// import img05 from "../all-images/cars-img/offer-toyota.png";
 import img06 from "../all-images/cars-img/mercedes-cla.png";
 import img07 from "../all-images/cars-img/audi-a3.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+// import img08 from "../all-images/cars-img/mercedes-offer.png";
 import imgLogoAg01 from "../all-images/logo.jpg";
 
 const carData = [

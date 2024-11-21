@@ -3,7 +3,7 @@ import "../../styles/our-member.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import ava01 from "../../assets/all-images/ava-1.jpg";
-import ava02 from "../../assets/all-images/ava-2.jpg";
+// import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
 
 const OUR__MEMBERS = [
