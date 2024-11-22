@@ -9,6 +9,8 @@ import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import CarSearch from "../pages/CarSearch";
+import Register from "../pages/Register";
+import Login from "../pages/Login";
 
 
 const Routers = () => {
@@ -23,6 +25,8 @@ const Routers = () => {
     <Route path='*' element={<NotFound/>} />
     <Route path='/contact' element={<Contact/>} />
     <Route path='/voitures/search' element={<CarSearch />} />
+    <Route path='/register' element={<Register />} />
+    <Route path='/login' element={<Login />} />
   </Routes>
 };
 

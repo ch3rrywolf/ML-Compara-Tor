@@ -185,7 +185,7 @@ const CarDetails = () => {
               </Col>
               <Col lg='12'>
               <div className="voiture__reviews mt-4">
-                <h4>Reviews ({reviews?.length} reviews)</h4>
+                <h4>Avis ({reviews?.length} avis)</h4>
                 <Form onSubmit={submitHandler}>
                   <div className="d-flex align-items-center gap-3 mb-4 rating__group">
                     <span onClick={()=> setVoitureRating(1)}>1<i class="ri-star-s-fill"></i></span>
@@ -195,7 +195,7 @@ const CarDetails = () => {
                     <span onClick={()=> setVoitureRating(5)}>5<i class="ri-star-s-fill"></i></span>
                   </div>
                   <div className="review__input">
-                    <input type="text" ref={reviewMsgRef} placeholder="share your thoughts" required />
+                    <input type="text" ref={reviewMsgRef} placeholder="partagez vos pensées" required />
                     <button className="btn text-black" type="submit">
                       Submit
                     </button>
