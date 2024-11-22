@@ -8,20 +8,20 @@ const PaymentMethod = () => {
   return (
     <>
       <div className="payment">
-        <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Virement bancaire direct
+        <label htmlFor="bancdirect" className="d-flex align-items-center gap-2">
+          <input type="radio" name="bancdirect" value="1" /> Virement bancaire direct
         </label>
       </div>
 
       <div className="payment mt-3">
-        <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Paiement par chèque
+        <label htmlFor="pcheque" className="d-flex align-items-center gap-2">
+          <input type="radio" name="pcheque" value="0" /> Paiement par chèque
         </label>
       </div>
 
       <div className="payment mt-3 d-flex align-items-center justify-content-between">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Master Card
+          <p type="text" /> Master Card <i>(Soon...)</i>
         </label>
 
         <img src={masterCard} alt="" />
@@ -29,14 +29,14 @@ const PaymentMethod = () => {
 
       <div className="payment mt-3 d-flex align-items-center justify-content-between">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Paypal
+          <p type="text" /> Paypal <i>(Soon...)</i>
         </label>
 
         <img src={paypal} alt="" />
       </div>
-      <div className="payment text-end mt-5">
+      {/* <div className="payment text-end mt-5">
         <button>Réservez maintenant</button>
-      </div>
+      </div> */}
     </>
   );
 };

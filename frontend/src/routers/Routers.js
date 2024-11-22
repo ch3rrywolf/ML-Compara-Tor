@@ -11,6 +11,7 @@ import Contact from "../pages/Contact";
 import CarSearch from "../pages/CarSearch";
 import Register from "../pages/Register";
 import Login from "../pages/Login";
+import ThankYou from "../pages/ThankYou";
 
 
 const Routers = () => {
@@ -27,6 +28,7 @@ const Routers = () => {
     <Route path='/voitures/search' element={<CarSearch />} />
     <Route path='/register' element={<Register />} />
     <Route path='/login' element={<Login />} />
+    <Route path='/thank-you' element={<ThankYou />} />
   </Routes>
 };
 

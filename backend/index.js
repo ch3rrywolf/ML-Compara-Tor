@@ -8,7 +8,7 @@ import voitureRoute from "./routes/voitures.js";
 import userRoute from "./routes/users.js";
 import authRoute from "./routes/auth.js";
 import reviewRoute from './routes/reviews.js';
-import bookingRoute from './routes/booking.js';
+import bookingRoute from './routes/bookings.js';
 
 dotenv.config();
 const app = express();
