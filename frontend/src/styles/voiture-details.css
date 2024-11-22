@@ -1,0 +1,93 @@
+.voiture__reviews {
+    border-radius: 0.5rem;
+    border: 1px solid #456F81;
+    padding: 2rem;
+}
+
+
+.rating__group span {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    color: #F7A600;
+    cursor: pointer;
+}
+
+
+.review__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 1px solid #F7A600;
+}
+
+.review__input input {
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+}
+
+.review__input input:focus {
+    outline: none;
+}
+
+
+.review__item {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.review__item img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.user__reviews {
+    margin-top: 2.5rem;
+}
+
+.review__item h5 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.review__item p {
+    font-size: 0.9rem;
+    color: #456F81;
+}
+
+.review__item h6 {
+    font-size: 1.1rem;
+    color: #456F81;
+}
+
+.review__item span i{
+    font-size: 1.2rem;
+    color: #F7A600;
+}
+
+.review__item span{
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .voiture__extra-details {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+
+    .voiture__extra-details span {
+        font-size: 0.9rem;
+    }
+
+    .voiture__extra-details span i {
+        font-size: 1rem;
+    }
+}
