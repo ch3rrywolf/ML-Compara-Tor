@@ -4,8 +4,8 @@ import { Container, Row, Col, Form,  Button, FormGroup } from 'reactstrap';
 import {Link, useNavigate} from 'react-router-dom';
 import '../styles/login.css';
 
-import loginImg from '../assets/all-images/slider-img/slider-3.jpg';
-import userIcon from "../assets//all-images/ava-1.jpg";
+import loginImg from '../assets/all-images/login.jpg';
+import userIcon from "../assets//all-images/agns-img/agns-logo.jpg";
 
 import { AuthContext } from './../context/AuthContext';
 import { BASE_URL } from './../utils/config';
@@ -57,7 +57,7 @@ try {
         <Col lg='8' className="m-auto">
         <div className="login__container d-flex justify-content-between">
           <div className="login__img">
-            <img src={loginImg} alt="" />
+            <img src={loginImg} alt=""  />
           </div>
 
           <div className="login__form">
@@ -76,7 +76,7 @@ try {
                 <p>Login</p>
               </Button>
             </Form>
-            <p>Don't have an account? <Link to='/register'>Create</Link></p>
+            <p>Vous n'avez pas de compte ? <Link to='/register' className='text-black'>Créer</Link></p>
           </div>
         </div>
         </Col>

@@ -3,8 +3,8 @@ import React, {useState, useContext} from 'react';
 import { Container, Row, Col, Form,  Button, FormGroup } from 'reactstrap';
 import {Link, useNavigate} from 'react-router-dom';
 import '../styles/login.css'
-import registerImg from '../assets/all-images/slider-img/slider-3.jpg';
-import userIcon from "../assets//all-images/ava-1.jpg";
+import registerImg from '../assets/all-images/register.jpg';
+import userIcon from "../assets//all-images/agns-img/agns-logo.jpg";
 
 import { AuthContext } from './../context/AuthContext.js';
 import { BASE_URL } from './../utils/config';
@@ -73,7 +73,7 @@ try {
                 <p>Register</p>
               </Button>
             </Form>
-            <p>Already have an account? <Link to='/login'>Login</Link></p>
+            <p >Vous avez déjà un compte <Link to='/login' className='text-black'>Se connecter</Link></p>
           </div>
         </div>
         </Col>

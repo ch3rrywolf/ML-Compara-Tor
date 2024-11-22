@@ -1,10 +1,11 @@
-import React, {useRef} from "react";
+import React, {useRef, useEffect, useContext} from "react";
 
-import { Container, Row, Col } from "reactstrap";
-import { Link, NavLink } from "react-router-dom";
+import { Container, Row, Col, Button } from "reactstrap";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "../../styles/header.css";
 
 import imgLogo from "../../assets/all-images/logo.jpg";
+import { AuthContext } from './../../context/AuthContext';
 
 const navLinks = [
   {
@@ -31,10 +32,36 @@ const navLinks = [
 
 const Header = () => {
 
+  const headerRef = useRef(null);
+    // const menuRef = useRef(null);
+    const navigate = useNavigate();
+    const {user, dispatch} = useContext(AuthContext);
+
+    const logout = ()=>{
+        dispatch({type:'LOGOUT'})
+        navigate('/')
+    }
+
+    const stickyHeaderFunc = ()=>{
+        window.addEventListener('scroll', ()=>{
+            if(document.body.scrollTop >80 || document.documentElement.scrollTop >80){
+                headerRef.current.classList.add('sticky__header')
+            }else{
+                headerRef.current.classList.remove('sticky__header')
+            }
+        });
+    };
+
+    useEffect(()=>{
+        stickyHeaderFunc();
+        return window.removeEventListener('scroll', stickyHeaderFunc);
+    });
+
+
   const menuRef = useRef(null);
   const toggleMenu = ()=> menuRef.current.classList.toggle('menu__active');
 
-  return (<header className="header">
+  return (<header className="header"  ref={headerRef}>
     <div className="header__top">
       <Container>
         <Row>
@@ -48,12 +75,22 @@ const Header = () => {
           </Col>
           <Col lg='6' md='6' sm='6'>
           <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
+            {user? (
+            <>
+            <h5 className="mb-0">{user.username}</h5>
+            <Button className="btn btn-dark" onClick={logout}>Logout</Button>
+            </>
+            ) : ( 
+            <> 
             <Link to={`/login`} className="d-flex align-items-center gap-1">
             <i class="ri-login-circle-line"></i> Se connecter
             </Link>
             <Link to={`/register`} className="d-flex align-items-center gap-1">
             <i class="ri-user-line"></i> Register
             </Link>
+            </>
+            )
+            }
           </div>
           </Col>
         </Row>
