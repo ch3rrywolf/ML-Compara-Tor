@@ -64,7 +64,7 @@ try {
             <div className="user">
               <img src={userIcon} alt="" />
             </div>
-            <h2>Login</h2>
+            <h2>Se connecter</h2>
             <Form onSubmit={handleClick}>
               <FormGroup>
                 <input type="email" placeholder="Email" required id="email" onChange={handleChange} />
@@ -73,7 +73,7 @@ try {
                 <input type="password" placeholder="Password" required id="password" onChange={handleChange} />
               </FormGroup>
               <Button className="btn secondary__btn auth__btn" type="submit">
-                <p>Login</p>
+                <p>Se connecter</p>
               </Button>
             </Form>
             <p>Vous n'avez pas de compte ? <Link to='/register' className='text-black'>Créer</Link></p>

@@ -70,7 +70,7 @@ try {
                 <input type="password" placeholder="Password" required id="password" onChange={handleChange} />
               </FormGroup>
               <Button className="btn secondary__btn auth__btn" type="submit">
-                <p>Register</p>
+                <p>Créer</p>
               </Button>
             </Form>
             <p >Vous avez déjà un compte <Link to='/login' className='text-black'>Se connecter</Link></p>
