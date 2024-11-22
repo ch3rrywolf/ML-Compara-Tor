@@ -15,7 +15,7 @@ const BecomeDriverSection = () => {
             Vous voulez gagner de l'argent avec nous ? Alors ne soyez pas en retard
             </h2>
 
-            <button className="btn become__driver-btn mt-4">Devenir chauffeur</button>
+            <button className="btn become__driver-btn mt-4">Réservez maintenant</button>
             </Col>
         </Row>
     </Container>

@@ -5,9 +5,22 @@ import img05 from "../all-images/blog-img/blog-5.jpg";
 import img06 from "../all-images/blog-img/blog-6.jpg";
 import img07 from "../all-images/blog-img/blog-7.jpg";
 import img08 from "../all-images/blog-img/blog-8.jpg";
+import img09 from "../all-images/blog-img/blog-9.jpg";
 
 const blogData = [
 
+  {
+    id: 6,
+    title: "BLACK FRIDAY ... réduction sur vos locations de voiture !",
+    author: "admin",
+    date: "22 Nov, 2024",
+    time: "9h",
+    imgUrl: img09,
+    description:
+      "BLACK FRIDAY : 20% de réduction sur vos locations de voiture ! 🚗 📅 Offre valable pendant 3 jours seulement ! Profitez de 20% de réduction sur toutes nos locations de voiture pour partir à l'aventure ou répondre à vos besoins de mobilité.👉 Réservez vite et économisez ! +216 27 932 190 Ne manquez pas cette opportunité exclusive !",
+    quote:
+      "#myloc #blackfriday #locatindevoiture",
+  },
   {
     id: 5,
     title: "Un service sur mesure...",
