@@ -19,8 +19,7 @@ const navLinksMobile = [
   { path: '/cars', display: 'Voitures' },
   { path: '/blogs', display: 'Blogs' },
   { path: '/contact', display: 'Contact' },
-  { path: '/login', display: 'Se connecter' },
-  { path: '/register', display: 'Sinscrire' },
+ 
 ];
 
 const Header = () => {
@@ -148,22 +147,53 @@ const Header = () => {
             <span className="mobile__menu">
               <i className="ri-menu-line" onClick={toggleMenu}></i>
             </span>
-            
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-              
               <div className="menu">
-              <h4 className="mb-0 text-black">{user.username}</h4>
-                {/* <span className="text-black">{user?.username}</span> */}
                 {/* Display links based on device type */}
-                {(isMobile ? navLinksMobile : navLinks).map((item, index) => (
-                  <NavLink
-                    to={item.path}
-                    className={(navClass) => navClass.isActive ? "nav__active nav__item" : "nav__item"}
-                    key={index}
-                  >
-                    
-                    {item.display}
-                  </NavLink>
+                {(isMobile ? (
+                  <>
+                    <div className="mobile__auth-links">
+                    {user ? (
+      <>
+        <h5 className="mb-0">{user.username}</h5>
+        <Button className="btn btn-dark" onClick={logout}>Logout</Button>
+      </>
+    ) : (
+      <>
+        <Link to={`/login`} className="d-flex align-items-center gap-1">
+          <i className="ri-login-circle-line"></i> Se connecter
+        </Link>
+        <Link to={`/register`} className="d-flex align-items-center gap-1">
+          <i className="ri-user-line"></i> S'inscrire
+        </Link>
+      </>
+    )}
+                    </div>
+                    <div className="mobile__nav-links">
+                    <ul>
+      {navLinksMobile.map((item, index) => (
+        <li key={index}>
+          <NavLink
+            to={item.path}
+            className={(navClass) => navClass.isActive ? "nav__active nav__item" : "nav__item"}
+          >
+            {item.display}
+          </NavLink>
+        </li>
+      ))}
+    </ul>
+                    </div>
+                  </>
+                ) : (
+                  navLinks.map((item, index) => (
+                    <NavLink
+                      to={item.path}
+                      className={(navClass) => navClass.isActive ? "nav__active nav__item" : "nav__item"}
+                      key={index}
+                    >
+                      {item.display}
+                    </NavLink>
+                  ))
                 ))}
               </div>
             </div>
