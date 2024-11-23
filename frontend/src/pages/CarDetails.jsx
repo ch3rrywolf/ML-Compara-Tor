@@ -172,14 +172,14 @@ const CarDetails = () => {
 
               <Col lg="7" className="mt-5">
                 <div className="booking-info mt-5">
-                  <h5 className="mb-4 fw-bold">Booking Information</h5>
+                  <h5 className="mb-4 fw-bold">Informations de réservation</h5>
                   <BookingForm voiture={{ price, carName }}/>
                 </div>
               </Col>
 
               <Col lg="5" className="mt-5">
                 <div className="payment__info mt-5">
-                  <h5 className="mb-4 fw-bold">Payment Information</h5>
+                  <h5 className="mb-4 fw-bold">Informations de paiement</h5>
                   <PaymentMethod />
                 </div>
               </Col>
